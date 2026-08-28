@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SHAHID TECH | Latest Forms, Jobs & Online Apply</title>
+<meta name="description" content="SHAHID TECH पर Latest Forms, Government Jobs, Scholarship, Yojana, Admit Card और Results की जानकारी पाएं।">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html"><span>ST</span> SHAHID TECH</a>
+    <nav>
+      <a href="#latest">Latest Forms</a><a href="#categories">Categories</a><a href="#youtube">YouTube</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <p class="tag">FORM • JOB • YOJANA • SCHOLARSHIP</p>
+    <h1>हर Online Form की जानकारी<br><b>एक ही जगह</b></h1>
+    <p>Eligibility, Last Date, Documents और Official Apply Link आसानी से खोजें।</p>
+    <div class="search"><input id="search" placeholder="जैसे: Bihar Police, CTET, Scholarship..." oninput="filterForms()"><button onclick="filterForms()">Search</button></div>
+  </div>
+</section>
+
+<main>
+<section id="categories">
+  <h2>📂 Categories</h2>
+  <div class="cats">
+    <button onclick="category('all')">🔎 All</button><button onclick="category('job')">💼 Government Jobs</button>
+    <button onclick="category('form')">📝 Latest Forms</button><button onclick="category('scholarship')">🎓 Scholarship</button>
+    <button onclick="category('yojana')">🏛️ Sarkari Yojana</button><button onclick="category('admit')">🎫 Admit Card</button>
+    <button onclick="category('result')">📊 Result</button>
+  </div>
+</section>
+
+<section id="latest">
+  <div class="section-head"><h2>🆕 Latest Updates</h2><span id="count"></span></div>
+  <div id="forms" class="grid"></div>
+  <p id="empty" class="empty" hidden>कोई matching update नहीं मिला।</p>
+</section>
+
+<section id="youtube" class="youtube">
+  <h2>▶️ SHAHID TECH YouTube</h2>
+  <p>Form कैसे apply करें—step-by-step वीडियो देखें।</p>
+  <a class="yt" href="#" target="_blank" rel="noopener">YouTube Channel खोलें</a>
+</section>
+</main>
+
+<footer><strong>SHAHID TECH</strong><br><small>Information को official website से verify करें। © 2026</small></footer>
+<script src="script.js"></script>
+</body>
+</html>
