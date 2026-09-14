@@ -1,6 +1,6 @@
 const forms=[
- {title:"Bihar Police Recruitment 2026",cat:"job",badge:"Government Job",qual:"12th Pass",date:"Official notification देखें",apply:"#",notice:"#"},
- {title:"CTET 2026",cat:"form",badge:"Latest Form",qual:"Eligibility के अनुसार",date:"Official notification देखें",apply:"#",notice:"#"},
+ {title:"Bihar Police Recruitment 2026",cat:"job",badge:"Government Job",qual:"12th Pass",date:"Official notification देखें",apply:"apply:"https://share.google/EygPmBYMpylg7odL1"",notice:"#"},
+ {title:"CTET 2026",cat:"form",badge:"Latest Form",qual:"Eligibility के अनुसार",date:"Official notification देखें",apply:",{title:"Bihar STET Online Form 2026",cat:"form",badge:"Latest Form",qual:"Eligibility के अनुसार",date:"Official notification देखें",apply:"https://share.google/86cbO9VXiXGFTcxHX"}",notice:"#"},
  {title:"Scholarship Form 2026",cat:"scholarship",badge:"Scholarship",qual:"पात्र छात्रों के लिए",date:"Official portal देखें",apply:"#",notice:"#"},
  {title:"Sarkari Yojana 2026",cat:"yojana",badge:"Yojana",qual:"योजना के नियम देखें",date:"Official portal देखें",apply:"#",notice:"#"},
  {title:"Admit Card Update 2026",cat:"admit",badge:"Admit Card",qual:"आवेदन करने वाले उम्मीदवार",date:"Official website देखें",apply:"#",notice:"#"},
